@@ -8,6 +8,8 @@ namespace ConsoleApplication3
 {
     class Program
     {
+        bool isDavidCool = true;
+
         static void Main(string[] args)
         {
             DateTime userBirthdate;
