@@ -10,6 +10,8 @@ namespace ConsoleApplication3
     {
         bool isDavidCool = true;
 
+        bool jeremyIsNichtCool = true;
+
         static void Main(string[] args)
         {
             DateTime userBirthdate;
