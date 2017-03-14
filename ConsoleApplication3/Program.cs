@@ -8,9 +8,6 @@ namespace ConsoleApplication3
 {
     class Program
     {
-        bool isDavidCool = true;
-
-        bool jeremyIsNichtCool = true;
 
         static void Main(string[] args)
         {
