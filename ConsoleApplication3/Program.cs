@@ -65,6 +65,7 @@ namespace ConsoleApplication3
                     case "/version":
                         Console.WriteLine("Version 0.1");
                         break;
+
                     case "close":
                         Environment.Exit(0);
                         break;
@@ -77,7 +78,15 @@ namespace ConsoleApplication3
 
 
                 }
+
+                SecondStart("Hallo");
+                
             }
         }
-    }
+
+        static void SecondStart(string name = "Hallo")
+        {
+            Console.WriteLine(name);
+        }
+    } 
 }
