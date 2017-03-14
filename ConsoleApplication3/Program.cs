@@ -74,12 +74,14 @@ namespace ConsoleApplication3
                         {
                             Console.WriteLine("Unknown command, use /help for more informations");
                             break;
+
+                            SecondStart(input);
                         }
 
 
                 }
 
-                SecondStart("Hallo");
+               
                 
             }
         }
