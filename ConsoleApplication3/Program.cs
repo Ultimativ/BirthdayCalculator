@@ -16,9 +16,10 @@ namespace ConsoleApplication3
             string input;
             bool inMode = false;
             while (true)
-            
+
             {
                 input = Console.ReadLine();
+                /*
 
                 if (input == "/help")
                 {
@@ -47,7 +48,36 @@ namespace ConsoleApplication3
                     Console.WriteLine("Unknown command, use /help for more informations");
                 }
                     
-            }        
+                */
+
+                // added swtich
+
+                switch (input)
+                {
+                    case "/help":
+                        Console.WriteLine("[/version],[/birthday]");
+                        break;
+
+                    case "/birthday":
+                        Console.WriteLine("Bitte geben sie ihr Geburtstag ein: dd/mm/yy");
+                        break;
+
+                    case "/version":
+                        Console.WriteLine("Version 0.1");
+                        break;
+                    case "close":
+                        Environment.Exit(0);
+                        break;
+
+                    default:
+                        {
+                            Console.WriteLine("Unknown command, use /help for more informations");
+                            break;
+                        }
+
+
+                }
+            }
         }
     }
 }
